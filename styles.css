@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: dodgerblue;
+    margin-bottom: 20px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link {
+    display: block;
+    width: 200px;
+    margin: 10px 0;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.instagram {
+    background-color: deeppink;
+}
+
+.instagram:hover {
+    background-color: hotpink;
+}
+
+.twitter {
+    background-color: deepskyblue;
+}
+
+.twitter:hover {
+    background-color: skyblue;
+}
+
+.whatsapp {
+    background-color: limegreen;
+}
+
+.whatsapp:hover {
+    background-color: mediumseagreen;
+}
